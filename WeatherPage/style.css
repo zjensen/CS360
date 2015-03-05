@@ -1,0 +1,50 @@
+body{
+	background-image: url("http://i.stack.imgur.com/jGlzr.png");
+	text-align: center;
+	font-family: Arial;
+}
+h1{
+	font-size: 48px;
+	color: #E38100;
+}
+h2{
+	font-size: 24px !important;
+	color: #5E3100;
+}
+a{
+   color:inherit;
+   text-decoration: none;
+}
+#weatherBox{
+	border-top: #E38100 2px solid;
+	border-bottom: #E38100 2px solid;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #E8C9A7;
+}
+#extraLinks{
+	border-bottom: #E38100 2px solid;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #FAE3C5;
+}
+#extraLinks ul{
+	list-style-position: inside;
+	margin-right: 75px;
+}
+#scheduleTable{
+	width: 50%;
+	height: 30%;
+	position: fixed;
+	top:35%;
+	left: 25%;
+}
+#scheduleTable, th, td {
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid #E38100;
+}
+pre{
+	font-family: Arial;
+}
