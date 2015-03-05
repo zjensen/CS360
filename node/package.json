@@ -1,0 +1,20 @@
+{
+	"author": "Zachary Jensen",
+	"name": "getcity.zjensen",
+	"version": "0.1.1",
+	"description": "Node server that returns Utah cities that contain a prefix",
+	"main": "staticServer",
+	"dependencies": 
+	{
+
+	},
+	"repository": 
+	{
+    "type": "git",
+    "url": "https://github.com/zjensen/CS360/tree/master/node"
+	},
+	"engines": 
+	{
+		"node": "*"
+	}
+}
