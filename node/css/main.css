@@ -1,0 +1,199 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 400;
+}
+h1{
+	font-family: 'Droid Sans', sans-serif !important;
+	text-align: center;
+	font-weight: 700;
+}
+b{
+	font-weight: 700 !important;
+}
+p{
+	font-size: 14px;
+}
+
+/*LANDING PAGE*/
+
+#landingBody{
+	background-image: url("../images/trainTracks2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;
+}
+#landingPage{
+	padding-top: 5%;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+}
+#landingHeader{
+	line-height: 1em;
+	text-transform: none;
+	letter-spacing: -2px;
+	font-weight: 700;
+	font-size: 175px;
+	text-align: center;
+}
+#landingAuthors a{
+	
+	line-height: 1em;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 48px;
+	
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#landingLinks a{
+	border-bottom: thin solid lightgray;
+	line-height: 1em;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 36px;
+	
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*ABOUT US*/
+
+#aboutBody{
+	margin:0; padding:0;
+	background-image:url(http://www.rabne.tk/wp-content/uploads/2015/01/tumblr_static_milky-way.jpg);
+	height:100%;
+	  
+	/* Looky here! */
+	background-attachment:fixed;
+}
+
+#aboutUsH1{
+	font-size: 108px !important;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.coverImageBody{
+
+  /*margin-top:200px;*/
+  height:100%;
+  width:100%;
+  background-color:#F8F8F8;
+}
+
+.bioPicLeft{
+	float: left;
+	padding-right:20px;
+	height:100%;
+	width:auto;
+}
+.bioPicRight{
+	float: right;
+	padding-left:20px;
+	height:100%;
+	width:auto;
+}
+.bio{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	height:300px;
+}
+.bioName{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 0px !important;
+}
+.bioParagraph{
+	font-size: 16px;
+}
+.navbar{
+	background-color: white !important; 
+ 	border-color: white !important; 
+ 	font-size: 18px !important;
+ 	min-height: 75px;
+}
+
+.navbar-brand {
+	font-size: 36px !important;
+}
+
+#topPage{
+	margin-top: 50px;
+}
+
+#testing{
+	height:5000px;
+	width:100%;
+}
+
+.blogDescription{
+	width:50%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-bottom: 50px;
+}
+.blogPost{
+	width:50%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-bottom: 50px;
+}
+.blogPost a{
+	color: lightgray !important;
+	text-decoration: underline !important;
+}
+.blogTitle{
+	font-size: 54px;
+	text-align: center;
+
+}
+.blogPost .blogDate{
+	padding-bottom: 40px;
+}
+.blogPost .blogTitle{
+	padding-top: 50px;
+}
+.blogDescription .blogTitle:hover{
+	color: darkgray;
+}
+ .blogDate{
+ 	font-size: 12px;
+ 	text-align: center;
+ 	font-style: italic;
+ 	color: lightgray;
+ }
+
+ .blogParagraph{
+ 	font-size: 24px;
+ }
+
+ #footer{
+ 	background-color: black;
+ 	color:white;
+ 	width:100%;
+ }
+ #footerMain{
+
+ 	font-size: 36px;
+ 	width:100%;
+ 	height: 200px;
+ 	line-height: 200px;
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	font-style: italic;
+ }
+ #footerSub{
+ 	text-align: right;
+ 	font-size: 12px;
+ }
+
+a{
+   color:inherit !important;
+   text-decoration: none !important;
+}

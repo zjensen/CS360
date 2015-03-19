@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../../css/course-work/lab-5.css" rel="stylesheet">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/font-awesome.min.css" rel="stylesheet" >
+		<link href="../../css/ionicons.css" rel="stylesheet" >
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+		<title>Lab #5 Jquery and AJAX</title>
+	</head>
+	<body>
+
+		<!-- <div id="header"></div> -->
+	    <div id="homeBanner">     
+			<div id="bannerText">
+				<h1 id="bannerHeader">Weather</h1>
+			</div>
+			<img src="http://icons.wxug.com/graphics/wu2/logo_130x80.png" alt="some_text" id="WU-logo" style="display:none">
+	    </div>
+		<!-- <div class="bgWrapper"></div> -->
+		<div class="mainBody">
+			<!-- <div class="heading">
+				<h1>Weather Page</h1>
+			</div> -->
+
+			<div id="weatherForm">
+				<!-- Local Weather: Enter Zip Code Below -->
+				<!-- form>
+					<input id="zipInput" type="text" name="zip" placeholder="Zip Code">
+					<br><br>
+					<a class="btn" id="submitButton" type="submit" value="Submit">
+						Search<i class="fa fa-search"></i>
+		      		</a>
+				</form> -->
+
+				<form>
+				
+					Enter A Utah City: <input type="text" id="cityfield" value="">
+					<a class="btn" id="submitButton" type="submit" value="Submit">
+						Search<i class="fa fa-search"></i>
+		      		</a><br>
+					<div id="suggestion">
+					Suggestions: <span id="txtHint"></span>
+					</div>
+					
+				</form>
+				
+				<!-- <input id="submitButton" type="submit" value="Submit"> -->
+			</div>
+			<div id="secondary">
+				<div id="weather"></div>
+				<div id="map"></div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/course-work/lab-5.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqJtZbgfIgLgWV7ykKhY0LYEtafrDe-D0"></script>
+	</body>
+</html>
