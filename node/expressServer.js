@@ -77,7 +77,7 @@ app.post('/comment', auth, function (req, res)
 	console.log("here1");
 	var jsonData = req.body;
 	console.log(typeof jsonData);
-	var reqObj = jsonData[];
+	var reqObj = jsonData;
 	// reqObj = JSON.parse(jsonData);
 	console.log(reqObj);
 	console.log("Name: "+reqObj.Name);
