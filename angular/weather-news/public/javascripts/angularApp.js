@@ -43,7 +43,8 @@ angular.module('weatherNews', ['ui.router'])
 .config([
   '$stateProvider',
   '$urlRouterProvider',
-  function($stateProvider, $urlRouterProvider) {
+  '$locationProvider',
+  function($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider
       .state('home', {
         url: '/home',
@@ -56,4 +57,5 @@ angular.module('weatherNews', ['ui.router'])
         controller: 'PostCtrl'
       });
     $urlRouterProvider.otherwise('home');
+    $locationProvider.html5Mode(true);
 }])

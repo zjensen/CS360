@@ -9,10 +9,13 @@ mongoose.connect('mongodb://localhost/news');
 require('./models/Posts');
 require('./models/Comments');
 
+//add .use/posts
+//move index.html to the view thing
+
 var app = express();
 app.use('/', express.static('./public')).
     use('/images', express.static( '../images')).
     use('/lib', express.static( '../lib'));
-// app.listen(8080);
+app.listen(8080);
 
 module.exports = app;

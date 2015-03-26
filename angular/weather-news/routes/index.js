@@ -18,6 +18,7 @@ router.get('/posts', function(req, res, next) {
 });
 
 router.post('/posts', function(req, res, next) {
+	console.log('in post /posts');
   var post = new Post(req.body);
   post.save(function(err, post){
   if(err){ return next(err); }
